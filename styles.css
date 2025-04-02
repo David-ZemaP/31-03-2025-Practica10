@@ -1,7 +1,11 @@
 body{
-    width: 50%;
-    margin: 0 auto;
+    margin: 0;
     background-color: whitesmoke;
+}
+
+.bdy{
+    width: 50%;
+    margin: auto;
 }
 
 div {
@@ -61,6 +65,7 @@ a[title]{
 
 *{
     font-weight: bold;
+    margin: 0;
 }
 
 button:hover{
@@ -90,7 +95,55 @@ p::first-line{
     border-radius: 10%;
 }
 
-.padre p{
-    color: blue;
+#padre {
+    background-color: none;
+}
+
+#padre p {
+    color: blue; 
     font-size: 1em;
+}
+
+.main{
+    color:rebeccapurple;
+    border: 2px solid #00bbaa;
+    padding: 1em;
+}
+
+.special{
+    color:red;
+    font-weight:bolder;
+}
+
+.rectangle{
+    width: 450px;
+    height: 250px;
+    background-color: chartreuse;
+}
+
+.rectangle1{
+    width: 70%;
+    height: 250px;
+    background-color: coral;
+}
+
+.rectangle-interior{
+    height: 125px;
+    width: 50%;
+    background-color: #00bbaa;
+}
+
+.rectangle-interio p{
+    color:aliceblue;
+}
+
+.cajita{
+    width: 100vw;
+    height:500px;
+    background-color: blanchedalmond;
+}
+
+.cajaa{
+    border:25px solid greenyellow;
+    padding: 30px;
 }
